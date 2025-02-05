@@ -1,0 +1,211 @@
+ <!-- Boiler Plate -->
+ <!DOCTYPE html> <!-- shortcut for this is SHIFT+1 -->
+<html>
+<head>
+
+    <!-- block elements take the whole width of a code  -->
+    <title>Test Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:black; color:beige">
+
+    <!-- Inline Elements -->
+    <h1> Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+    <p>This is a paragraph</p>
+    <i>This stands for italics</i> 
+    <u>This stands for underline</u>
+    <span>This is Span</span>
+    <h1><i><u>Big Bold Underlined and Slant</u></i></h1>
+    <mark>To highlight</mark>
+    <del>strikethrough</del>
+    <strong>Bold and Small</strong>
+    <b>also stands for bold</b>
+    <marquee>Moves text across page.</marquee>
+    <a>This helps crreate links. It should be attributed with href.</a>
+
+    <!-- Attributes provides additional information to an html element. It can be found inside an element.
+     
+    It must contain = and "". This is practiced in Line 8.
+    
+    bgcolor is for only background of body
+    style is used for bgcolor, text colour.
+    
+    For example:-->
+
+    <h1 style="background-color: blue; color:brown"> Hello World</h1>
+
+    <!--
+    
+    
+    Ordered Lists and Unordered Lists
+    Ordered lists are listed accordingly. 
+    OL stands for Ordered lists.
+    
+    
+    An example:-->
+    <ol>
+        <li>Mango</li>
+        <li>Orange</li>
+    </ol>
+
+    <!-- Ul stands for unordered lists. Makes use of bullet points.  -->
+    <ul>
+        <li>Html</li>
+        <li>Css</li>
+    </ul>
+
+    <!--Classwork: Change the bg and text colours of one list from the twp classes above.-->
+    <ol>
+        <li style="color:brown"> Mango</li>
+    </ol>
+
+    <ul>
+        <li style=" color:brown"> Html</li>
+    </ul>
+
+    <!-- Html links.
+    Allows you to link to multiple pages.  
+    We have to create different filesand each files represent different web pages. -->
+
+    <a href="about.html">About Us</a>
+    <a href="services.html">Our Services</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="https://x.com" target="_blank">Our X Page</a>
+    <a href="https://youtube.com" target="_blank">Our YouTube Page</a>
+    <a href="https://tiktok.com" target="_blank">Our TikTok Page</a><br>
+
+    <!-- External linking helps link outside your website -->
+     <!--target="_blank" opens a page in a new tab instead of driving users away unable to go back to your site.-->
+     <!--IMG SRC for inserting images. -->
+     <img src="img1.jpg" width="200px" height="200px" alt="rebirth merch."><br>
+
+     <a href="https://x.com" target="_blank"><img src="xlogo.jpeg" width="50px" height="50px" alt="X"></a>
+     <a href="https://youtube.com" target="_blank"><img src="youtubelogo.png" width="50px" height="50px" alt="X"></a>
+     <a href="https://facebook.com" target="_blank"><img src="facebooklogo.jpeg" width="50px" height="50px" alt="X"></a>
+
+     <!-- Lets discuss Forms -->
+<form>
+    <input type = "text" placeholder="Enter Your Name" required>
+<input type = "email" placeholder="Enter Your Email" required>
+<input type = "password" placeholder="Enter Your PassWord"required>
+<input type = "file"><br><br>
+<span>I agree.</span><input type = "checkbox"><br><br>
+
+<!-- Radio type help pick one option out of provided options but Checkboxes, you can pick multiple at a go. -->
+ <!-- Ensure to add the name attribute to the radio type for it to work properly. -->
+
+ <span>Female</span><input type="radio" name="gender">
+ <span>Male</span><input type="radio" name="gender"><br><br>
+ <input type="date">
+ <input type="time">
+ <input type="range">
+<button>Sign Up</button>
+</form>
+
+<!-- Lets discuss TABLES. -->
+ <!-- <tr>Stands for table row</tr>
+ <th>stands for table header</th> 
+ <td> stands for table data</td>-->
+
+<table border="1px" cellpadding="30px" cellspacing="10px">
+<tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Email</th>
+</tr>
+
+<tr>
+    <td>1</td>
+    <td>Khay</td>
+    <td>Khaycee99@gmail.com</td>
+</tr>
+
+<tr>
+    <td>2</td>
+    <td>Della.eth</td>
+    <td>DaniellaUbah@gmail.com</td>
+</tr>
+
+<tr>
+    <td>3</td>
+    <td>Clairee</td>
+    <td>sinclaire@gmail.com</td>
+</tr>
+
+<tr>
+    <td>4</td>
+    <td>Darla</td>
+    <td>Darla@gmail.com</td>
+</tr>
+
+<tr>
+    <td>5</td>
+    <td>Clara</td>
+    <td>okpara@gmail.com</td>
+</tr>
+</table>
+
+<video width="200" height="200" controls>
+    <source src="video.mp4" >
+</video><br>
+
+<audio controls>
+    <source src="audio.wav">
+</audio><br><br>
+
+
+
+<!-- INTRODUCTION TO CSS 
+-Internal Style
+-External Style
+-Inline Style 
+
+
+-Internal Style:--> <h1 style="background-color: blue; color:brown; width: 50%"> Hello World</h1>
+
+<img src="img1.jpg" class="lid">   
+ <p></p><button class="aid">Subscribe</button>
+
+<div class="container">
+
+    <p class="fit">World Health</p>
+    <p class="fit">World Health</p>
+    <p class="fit">World Health</p> 
+    
+</div>
+
+
+ <!-- grid is a two way dimensional system -->
+
+ <div class="container2">
+
+    <p class="fit">World Health</p>
+    <p class="fit">World Health</p>
+    <p class="fit">World Health</p>
+    <p class="fit">World Health</p> 
+    <p class="fit">World Health</p> 
+    <p class="fit">World Health</p> 
+    
+</div>
+
+<div class="parentDiv">
+    <div class= "centerDiv">
+        <div>Hello</div>
+    <div>Hello World</div>
+    </div>
+</div>
+
+<div>Media query allows you build responsive websites.</div>
+
+
+
+    </body>
+
+
+
+</html>

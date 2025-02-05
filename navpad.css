@@ -1,0 +1,22 @@
+ul{
+    background-color: rgb(72, 47, 47);
+    align-content: center;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.logo{
+    padding: 5px;
+    margin-right: 30%;
+}

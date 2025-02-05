@@ -1,0 +1,45 @@
+.loginbutton{
+    background-color: green;
+    color: white;
+    width: 210px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.loginbutton:hover{
+    background-color: white;
+    color: black
+}
+
+.input{
+    width: 200px;
+    height: 25px;
+}
+
+.textarrangement{
+    display: flex;
+    margin-left: 45px;
+}
+
+.maindiv{
+    background: gray;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.signupdiv{
+    background-color: white;
+    height: 500px;
+    width: 300px;
+}
+
+.logindiv{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+}
+
